@@ -1,0 +1,308 @@
+{
+    "user": [
+        {
+            "username": "pandora",
+            "password": "arte",
+            "id": "001",
+            "nome": "Pandora",
+            "software": "0",
+            "totalEstrelas": "50",
+            "desafioAI": [
+                {
+                    "progressao": "3",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "3",
+                    "estrelas": "3"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "1",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ],
+            "desafioCD": [
+                {
+                    "progressao": "3",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "3",
+                    "estrelas": "3"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "1",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ]
+        },
+        {
+            "username": "mazzoni",
+            "password": "1",
+            "id": "002",
+            "nome": "mc",
+            "software": "1",
+            "totalEstrelas": "50",
+            "desafioAI": [
+                {
+                    "progressao": "3",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "3",
+                    "estrelas": "3"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "1",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ],
+            "desafioCD": [
+                {
+                    "progressao": "3",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "3",
+                    "estrelas": "3"
+                },
+                {
+                    "progressao": "2",
+                    "estrelas": "2"
+                },
+                {
+                    "progressao": "1",
+                    "estrelas": "1"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ]
+        },
+        {
+            "username": "amandaleticia",
+            "password": "al0419",
+            "id": "003",
+            "nome": "Amanda Leticia",
+            "software": "0",
+            "totalEstrelas": "0",
+            "desafioAI": [
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ],
+            "desafioCD": [
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ]
+        },
+        {
+            "username": "luizguilherme",
+            "password": "lg0419",
+            "id": "004",
+            "nome": "Luiz Guilherme",
+            "software": "0",
+            "totalEstrelas": "0",
+            "desafioAI": [
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ],
+            "desafioCD": [
+                {
+                    "progressao": "0",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                },
+                {
+                    "progressao": "-1",
+                    "estrelas": "0"
+                }
+            ]
+        }
+    ]
+}

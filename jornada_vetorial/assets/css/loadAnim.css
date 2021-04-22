@@ -1,0 +1,135 @@
+svgImg {
+    width: 120px;
+}
+
+.stroke-still {
+    stroke: #fff;
+}
+
+.stroke-animation {
+    -webkit-animation: stroke-spacing 0.84s ease-in, stroke-color 3.36s linear;
+    animation: stroke-spacing 0.84s ease-in, stroke-color 3.36s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+@-webkit-keyframes stroke-spacing {
+    0% {
+        stroke-dasharray: 0 200;
+    }
+
+    45% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 200 200;
+    }
+
+    90% {
+        stroke-dashoffset: -200;
+        stroke-dasharray: 200 200;
+    }
+
+    100% {
+        stroke-dashoffset: -200;
+        stroke-dasharray: 200 200;
+    }
+}
+
+@keyframes stroke-spacing {
+    0% {
+        stroke-dasharray: 0 200;
+    }
+
+    45% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 200 200;
+    }
+
+    90% {
+        stroke-dashoffset: -200;
+        stroke-dasharray: 200 200;
+    }
+
+    100% {
+        stroke-dashoffset: -200;
+        stroke-dasharray: 200 200;
+    }
+}
+
+@-webkit-keyframes stroke-color {
+    0% {
+        stroke: #fff;
+    }
+
+    24% {
+        stroke: gray;
+    }
+
+    25% {
+        stroke: red;
+    }
+
+    49% {
+        stroke: pink;
+    }
+
+    50% {
+        stroke: blue;
+    }
+
+    74% {
+        stroke: blue;
+    }
+
+    75% {
+        stroke: yellow;
+    }
+
+    99% {
+        stroke: yellow;
+    }
+}
+
+@keyframes stroke-color {
+    0% {
+        stroke: #F2F2F2;
+    }
+
+    24% {
+        stroke: #BDCCD4;
+    }
+
+    25% {
+        stroke: chartreuse;
+    }
+
+    49% {
+        
+        stroke: yellow;
+    }
+
+    50% {
+        stroke: #7AC943;
+    }
+
+    74% {
+        stroke: #009245;
+    }
+
+    75% {
+        stroke: #006837;
+    }
+
+    99% {
+        stroke: #05341B;
+    }
+}

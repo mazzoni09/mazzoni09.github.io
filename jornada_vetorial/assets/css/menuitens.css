@@ -1,0 +1,444 @@
+p,
+blockquote {
+    letter-spacing: .5px;
+    line-height: 1.75rem;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-color: #78c8d7;
+    margin-top: 0;
+}
+
+.vertical-center-top,
+.vertical-center-bot {
+    display: flex;
+    align-items: center;
+}
+
+.chamada {
+    font-size: 8rem;
+    color: white;
+
+}
+
+.chamada2 {
+    font-size: 3rem;
+    color: #459BA8;
+}
+
+.chamada3 {
+    font-size: 5.5rem;
+    color: white;
+}
+
+.chamada-rank {
+    /**/
+    line-height: 8rem;
+    font-size: 9rem;
+    color: white;
+}
+
+.chamada-rank2 {
+    font-size: 3rem;
+    color: #AF4693;
+}
+
+.hr-rank {
+    background-color: #E868A2;
+}
+
+.desafio-txt {
+    color: #78c8d7;
+}
+
+.table-wrapper-scroll-y {
+    max-height: 280px;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-bottom: 20px;
+}
+
+.table-conteiner {
+    width: 99%;
+    position: relative;
+}
+
+.table-name {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.table-point {
+    width: 60px;
+    background-color: #D3D3D3;
+    color: black;
+}
+
+.img-rank {
+    width: 15%;
+    min-width: 60px;
+    max-width: 70px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.titulo-direita {
+    color: #78C5D6;
+}
+
+.titulo-direita-rank {
+    color: #E868A2;
+}
+
+.li-nav {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+li a {
+    border-bottom: 0px;
+    text-decoration: none;
+    color: grey;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: grey;
+    border-bottom: 2px solid #78c8d7;
+}
+
+.link-behance a {
+    text-decoration: none;
+    color: grey;
+}
+
+.link-behance a:hover {
+    text-decoration: none;
+    color: grey;
+    border-bottom: 2px solid #78c8d7;
+}
+
+.rank_btn {
+    z-index: 10;
+}
+
+.rank_btn_on {
+    z-index: 10;
+    display: none;
+}
+
+.rank_btn_on,
+.rank_btn:hover .rank_btn_off {
+    z-index: 10;
+    display: none;
+}
+
+.rank_btn_off,
+.rank_btn:hover .rank_btn_on {
+    z-index: 10;
+    display: block;
+}
+
+.txt_menu_left {
+    margin: 0px 15px;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: white
+}
+
+.spaceLine {
+    display: block;
+    line-height: 20px;
+}
+
+.switch {
+    margin-top: 25px;
+    margin-left: 25px;
+    position: relative;
+    display: flex;
+    width: 68px;
+    height: 34px;
+    margin-bottom: 0px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    display: none;
+}
+
+.toggle_cd,
+.toggle_ai {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CE6F1D;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle_cd {
+    background-color: #5E9750;
+}
+
+.toggle_cd:before,
+.toggle_ai:before {
+    position: absolute;
+    content: "";
+    height: 34px;
+    width: 34px;
+    top: 0px;
+    left: 0px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle_cd:before {
+    left: 34px;
+}
+
+input:checked + .toggle_ai {
+    background-color: #CE6F1D;
+}
+
+input:focus + .toggle_ai {
+    box-shadow: 0 0 1px #CE6F1D;
+}
+
+input:checked + .toggle_cd {
+    background-color: #5E9750;
+}
+
+input:focus + .toggle_cd {
+    box-shadow: 0 0 1px #5E9750;
+}
+
+input:checked + .toggle_ai:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+}
+
+input:checked + .toggle_cd:before {
+    -webkit-transform: translateX(-34px);
+    -ms-transform: translateX(-34px);
+    transform: translateX(-34px);
+}
+
+.toggle_ai.round,
+.toggle_cd.round {
+    border-radius: 7px;
+}
+
+.toggle_ai.round:before,
+.toggle_cd.round:before {
+    border: 5px solid #DCDCDC;
+    border-radius: 25%;
+}
+
+.toc {
+    color: #459BA8;
+}
+
+.monster-name {
+    color: black;
+}
+
+#aventura {
+    color: white;
+    padding-bottom: 2.5%;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 60px;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    background-color: #78c8d7;
+}
+
+#aventura:hover {
+    text-decoration: none;
+    color: #459BA8;
+    border-bottom: 0px;
+}
+
+.centerFlexBox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adjustResizeSm {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #78c8d7;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #459BA8;
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1236px) {
+    .chamada {
+        font-size: 6rem;
+    }
+
+    .chamada3 {
+        font-size: 4rem;
+    }
+
+    .chamada-rank {
+        font-size: 9rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .chamada {
+        font-size: 6rem;
+    }
+
+    .chamada3 {
+        font-size: 4rem;
+    }
+
+    .chamada-rank {
+        font-size: 8rem;
+    }
+}
+
+@media(max-width: 820px) {
+    .chamada {
+        font-size: 4rem;
+    }
+
+    .chamada2 {
+        font-size: 2.5rem;
+    }
+
+    .chamada3 {
+        font-size: 3rem;
+    }
+
+    .chamada-rank {
+        font-size: 7rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+
+    .chamada {
+        font-size: 5rem;
+    }
+
+    .chamada2 {
+        font-size: 2rem;
+    }
+
+    .chamada3 {
+        font-size: 3.5rem;
+    }
+
+    .chamada-rank {
+        font-size: 8rem;
+    }
+
+    .conteudo-esq {
+        height: 300px;
+    }
+
+    .vertical-center-top {
+        min-height: 200px;
+    }
+
+    .vertical-center-bot {
+        min-height: 100%;
+    }
+
+    .adjustResizeSm {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .chamada {
+        font-size: 5rem;
+    }
+
+    .chamada2 {
+        font-size: 2rem;
+    }
+
+    .chamada3 {
+        font-size: 3.5rem;
+    }
+
+    .chamada-rank {
+        font-size: 7rem;
+    }
+}
+
+@media(max-width: 348px) {
+
+
+    .chamada {
+        font-size: 4rem;
+    }
+
+    .chamada2 {
+        font-size: 1.5rem;
+    }
+
+    .chamada3 {
+        font-size: 3rem;
+    }
+
+    .chamada-rank {
+        font-size: 6rem;
+    }
+}

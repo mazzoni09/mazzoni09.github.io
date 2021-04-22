@@ -1,0 +1,423 @@
+html,
+body {
+    font-family: 'Unica One', cursive;
+
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #BDCBD4;
+    padding: 40px 0px;
+    font-size: 3vw;
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+.nomeAlunoBox {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 2px;
+    left: 35px;
+    height: 30px;
+    width: calc(100% - 30px);
+}
+
+.nAluno {
+    background-color: #e6e6e6;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -10%);
+    background: transparent;
+}
+
+.control {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: #e6e6e6;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+    background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+    background: #e6e6e6;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+    background: #e6e6e6;
+}
+
+.control__indicator:after {
+    position: absolute;
+    display: none;
+    content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+    display: block;
+}
+
+.control--radio .control__indicator:after {
+    top: 6px;
+    left: 6px;
+    width: 18px;
+    height: 18px;
+    background: #3fa9f5;
+}
+
+.myButton,
+.myButton2,
+.btnT2,
+.btnT3 {
+    background-color: #3fa9f5;
+    border: 1px solid #3fa9f5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5vw;
+    margin-top: 8px;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #4284f5;
+    position: relative;
+    top: 4%;
+    right: 0%;
+}
+
+.myButton2 {
+    border: 1px solid #ff7bac;
+    text-shadow: 0px 1px 0px #d4628d;
+    background-color: #ff7bac;
+}
+
+.btnT2 {
+    background-color: #ff7bac;
+    margin-right: 2%;
+}
+
+.btnT3 {
+    margin: 0;
+}
+
+.myButton:hover {
+    background-color: #4798d1;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.blueBg {
+    margin-top: 50px;
+    height: 100%;
+}
+
+.blueBg3 {
+    position: absolute;
+    background-color: #3fa9f5;
+    width: 100%;
+    left: -500px;
+    height: 100%;
+
+}
+
+.blueBg2 {
+    margin-top: 50px;
+    position: absolute;
+    background-color: #3fa9f5;
+    width: 1973px;
+    left: calc(-25%);
+    height: 90%;
+
+}
+
+.nomeAlunoBox2 {
+    background-color: #e6e6e6;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    width: 99%;
+    height: 40px;
+    border: none;
+    white-space: nowrap;
+}
+
+.idBox {
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 49px;
+    box-shadow: none;
+}
+
+.nAluno2 {
+    white-space: nowrap;
+    background-color: #e6e6e6;
+    position: relative;
+    top: 21%;
+    left: 5%;
+    transform: translate(-50%, -10%);
+    border: none;
+    background: transparent;
+}
+
+.txtInput {
+    border: none;
+    background: transparent;
+    width: auto;
+}
+
+.phBox {
+    background: transparent;
+    color: #beccd5;
+    position: relative;
+    top: 20%;
+    left: 3%;
+    transform: translate(-50%, -10%);
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.padForce {
+    padding: 0;
+
+}
+
+.toolBg {
+    background-color: #f8931f;
+}
+
+.leftBlock {
+    width: 125px;
+    height: 125px;
+    background-color: #f15a25;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 15px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    padding: 0;
+}
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        padding: 0;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+    }
+
+
+    html,
+    body {
+        margin: 0 10px;
+    }
+
+    .blueBg2 {
+        left: -20px;
+    }
+
+    .myButton,
+    .myButton2,
+    .btnT2 {
+        font-size: 3vw;
+    }
+
+
+
+
+}

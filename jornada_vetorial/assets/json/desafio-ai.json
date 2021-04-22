@@ -1,0 +1,84 @@
+{
+    "desafios": [
+        {
+            "personagemNome": "Boneco de treino",
+            "personagemNome2": "Boneco de treino",
+            "personagemLink": "../image/enemy_d1.svg",
+            "personagemLinkNivel2": "../image/enemy_d1.svg",
+            "txtIntro": "Olá! <span class='toc'><sup>(toc!)</sup></span> Eu sou Sir Victor Guldbrandsdatter, mas pode me chamar de <span class='monster-name'>SVG</span>, como todos me chamam. É um prazer conhecê-lo aventureiro, confesso que estava ansioso por sua chegada! <span class='toc'><sup>(toc!)</sup></span><br />O quê?! <span class='toc'><sup>(toc! toc!)</sup></span> Não sou 'apenas' um boneco de treinamento, serei seu leal companheiro em sua triunfante jornada!<br />Bom, percebo que já escolheu suas armas, escolha interessante! <span class='toc'><sup>(toc!)</sup></span> Mas você parece não saber bem o que fazer com ela, certo? Não se preocupe, estou aqui para ajudá-lo, está preparado? Vamos começar o seu treinamento! <span class='toc'><sup>(toc!)</sup></span>",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Área de trabalho<br /><span class='toc'>DESCRIÇÃO:</span> Abra o Illustrator, explore os menus e experimente as ferramentas.",
+            "txtComplementar": "Lorem Ipsum Complementar Desafio 1",
+            "txtExtra": "Lorem Ipsum Extra Desafio 1"
+        },
+        {
+            "personagemNome": "slime",
+            "personagemNome2": "slime",
+            "personagemLink": "../image/enemy_d2A.svg",
+            "personagemLinkNivel2": "../image/enemy_d2B.svg",
+            "txtIntro": "Olhe, é um <span class='monster-name'>Slime</span>! <span class='toc'><sup>(toc!)</sup></span> É, você tem razão, essas criaturas não são muito assustadoras. Na verdade, elas mais preocupam as mães, que vivem alertando seus filhos que gelatinas gigantes não existem.<br />Acho que este vai ser um primeiro teste adequado para você! <span class='toc'><sup>(toc!)</sup></span> Mas atenção, os slimes possuem um temperamento instável, por isso, tome cuidado, ou as coisas podem sair do controle...",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Flat portrait.<br /><span class='toc'>DESCRIÇÃO:</span> Fazer um retrato a partir de formas geométricas.<br /><span class='toc'>RESTRIÇÃO:</span> Utilizar apenas preenchimento, sem linhas de contorno.<br />",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Eu conheço esse personagem...<br /><span class='toc'>DESCRIÇÃO:</span> Escolher um personagem (fictício) e fazer uma versão flat dele. <br /><strong>ex:</strong> desenho animado, personagem de jogo, história em quadrinhos, etc.<br /><span style='color:white;'>HARDCORE: Desenvolver o turn around (frente / lado direito / costas lado esquerdo).</span><br />",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> As faces de Mr. Bean.<br /><span class='toc'>DESCRIÇÃO:</span> Desenhar, ao menos, 3 expressões faciais.<br /><strong>ex:</strong> alegria, surpresa, tristeza, medo, raiva, nojo.<br /><span class='toc'>FICA DICA:</span> Veja algumas caras e bocas do Mr. Bean para estimular a criar expressões mais expressivas!"
+        },
+        {
+            "personagemNome": "morcego",
+            "personagemNome2": "morcego",
+            "personagemLink": "../image/enemy_d3A.svg",
+            "personagemLinkNivel2": "../image/enemy_d3B.svg",
+            "txtIntro": "Abaixe-se, um <span class='monster-name'>Morcego</span> vem em nossa direção! <span class='toc'><sup>(toc!)</sup></span><br />Hã?! <span class='toc'><sup>(toc!)</sup></span> Da onde foi que você tirou essa ideia? Não, ele não vai chupar seu sangue, os morcegos do Mundo do Vetor, sugam a sua energia! <span class='toc'><sup>(toc!)</sup></span><br />Eles possuem uma sede insaciável e, quando não suportam mais, colocam  toda energia para fora em um verdadeiro show de efeitos especiais! <span class='toc'><sup>(toc!)</sup></span> Algo tão bonito quanto perigoso, se eu fosse você não pagaria para ver...",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Line art.<br /><span class='toc'>DESCRIÇÃO:</span> Fazer um desenho com contorno utilizando a ferramenta caneta.<br /><span class='toc'>RESTRIÇÃO:</span> Não utilizar formas geométricas prontas.",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Debaixo da minha cama tem...<br /><span class='toc'>DESCRIÇÃO:</span> Imaginar e desenhar a criatura que viveria debaixo da sua cama.<br /><strong>ex:</strong> Extraterrestre com muitos olhos que adora esconder meus tênis.<br /><span style='color:white;'>HARDCORE: Editar a espessura das linhas de contorno tornando-as mais orgânicas.</span>",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> Quem é esse cartoon?<br /><span class='toc'>DESCRIÇÃO:</span> Desenhar a silhueta reconhecível de um desenho animado.<br /><strong>ex:</strong> Mickey, Pato Donald, Pateta, etc.<br /><span class='toc'>FICA DICA:</span> Não use Pokemón, use a sua criatividade e surpreenda!"
+        },
+        {
+            "personagemNome": "goblin",
+            "personagemNome2": "goblin",
+            "personagemLink": "../image/enemy_d4A.svg",
+            "personagemLinkNivel2": "../image/enemy_d4B.svg",
+            "txtIntro": "Hey, estamos sendo observados por um <span class='monster-name'>Goblin</span>! <span class='toc'><sup>(toc!)</sup></span> Mas fique calmo, acho que podemos enganá-lo facilmente, os goblin não são as criaturas mais espertas por aqui.<br />Ops, eu acho que ele nos ouviu… Não há nada que deixe um Goblin mais irritado do que ter sua inteligência menosprezada. Isso, com certeza, não vai terminar bem! <span class='toc'><sup>(toc!)</sup></span>",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Landscape<br /><span class='toc'>DESCRIÇÃO:</span> Fazer uma paisagem monocromática em camadas.<br /><span class='toc'>RESTRIÇÃO:</span> Utilizar paleta de cor reduzida.",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Um dia no campo...<br /><span class='toc'>DESCRIÇÃO:</span> Criar uma paisagem diurna de campo com, ao menos, 3 planos.<br /><strong>ex:</strong> montanhas ao fundo, árvores distantes, arbustos próximos, etc.<br /><span style='color:white;'>HARDCORE: Fazer uma versão noturna da paisagem com uma nova paleta de cor.",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> Mario World.<br /><span class='toc'>DESCRIÇÃO:</span> Reproduzir o cenário de uma fase do jogo Mario Bros.<br /><strong>ex:</strong> montanhas arredondadas, canos, blocos, etc.<br /><span class='toc'>FICA DICA:</span> Se preferir, troque por uma fase do jogo Donkey Kong!"
+        },
+        {
+            "personagemNome": "esqueleto",
+            "personagemNome2": "esqueleto",
+            "personagemLink": "../image/enemy_d5A.svg",
+            "personagemLinkNivel2": "../image/enemy_d5B.svg",
+            "txtIntro": "Socorro, um <span class='monster-name'>Esqueleto</span>! <span class='toc'><sup>(toc!)</sup></span> Eu já ouvi sobre eles, mas achei que não passavam de histórias inventadas para assustar...<br />Eu não estou com medo! <span class='toc'><sup>(toc!)</sup></span> Tive apenas um calafrio, afinal, como pode um morto estar vivo? <br />O que está dizendo? O meu caso é diferente, nossa família de bonecos é bem grande, pode perguntar ao meu primo narigudo! <span class='toc'><sup>(toc!)</sup></span>",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Final art.<br /><span class='toc'>DESCRIÇÃO:</span> Fazer a arte-final a partir do rascunho disponibilizado em aula.<br /><span class='toc'>RESTRIÇÃO:</span> Utilizar apenas a mesa digitalizadora, não usar mouse.",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Objeto com personalidade...<br /><span class='toc'>DESCRIÇÃO:</span> Fazer um personagem a partir de um objeto, evidenciando as características de sua personalidade. <br /><strong>ex:</strong> caneca de café apressada para o trabalho.<br /><span class='toc'>PROCESSO:</span> rascunho¹ / arte-final².<br /><em><span style='font-size: 14px;' class='spaceLine'>1. fazer esboço em papel e digitalizar ou fazer esboço diretamente digital.<br />2. arte-finalizar com a mesa gráfica (definir estilo e espessura das linhas).</span></em><span style='color:white;'>HARDCORE: Aplicar cor de preenchimento.",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> Você conhece a Pandorinha?<br /><span class='toc'>DESCRIÇÃO:</span> Criar uma versão da Pandorinha no seu estilo.<br /><strong>ex:</strong> remake - Meninas Super Poderosas.<br /><span class='toc'>PROCESSO:</span> rascunho¹ / arte-final².<br /><em><span style='font-size: 14px;' class='spaceLine'>1. fazer esboço em papel e digitalizar ou fazer esboço diretamente digital.<br />2. arte-finalizar com a mesa gráfica (definir estilo e espessura das linhas).</span></em><span class='toc'>FICA DICA:</span> Como inspiração, veja a MSP 50, onde artistas brasileiros elaboraram uma releitura dos personagens clássicos da Turma da Mônica."
+        },
+        {
+            "personagemNome": "baú misterioso",
+            "personagemNome2": "mimic",
+            "personagemLink": "../image/enemy_d0A.svg",
+            "personagemLinkNivel2": "../image/enemy_d0B.svg",
+            "txtIntro": "Tenha calma aventureiro, este é um <span class='monster-name'>Baú misterioso</span>! <span class='toc'><sup>(toc!)</sup></span> Não estou com um bom pressentimento a respeito disso… Quem deixaria para trás um baú como este? Sabe-se lá o que pode ter dentro dele.<br />Só estou dizendo que deveria desconfiar antes, mas a decisão de abri-lo é sua! <span class='toc'><sup>(toc!)</sup></span> Não quero ser estraga-prazer, depois não diga que eu não avisei.",
+            "txtFundamental": "<br />Desafio em desenvolvimento.",
+            "txtComplementar": "<br />Desafio em desenvolvimento.",
+            "txtExtra": "<br />Desafio em desenvolvimento."
+        },
+        {
+            "personagemNome": "príncipe mimado",
+            "personagemNome2": "carrasco",
+            "personagemLink": "../image/enemy_d6A.svg",
+            "personagemLinkNivel2": "../image/enemy_d6B.svg",
+            "txtIntro": "É o <span class='monster-name'>Príncipe mimado</span>! <span class='toc'><sup>(toc!)</sup></span> Rápido, curve-se, ou vamos nos meter em confusão! <span class='toc'><sup>(toc!)</sup></span><br />Nem sempre o mais belo dos reinos tem o líder que merece. O jovem príncipe adora passear pelo reino, acompanhado por seus capangas, dando ordens a todos e punindo aqueles que não as obedecem…<br />O que você acha que está fazendo? <span class='toc'><sup>(toc!)</sup></span> Ele vai ficar furioso! <span class='toc'><sup>(toc!)</sup></span>",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Logotipo.<br /><span class='toc'>DESCRIÇÃO:</span> Escolher um jogo, criar um time e desenvolver seu logo/brasão.<br /><span class='toc'>RESTRIÇÃO:</span> Usar no mínimo 2 e no máximo 4 cores diferentes. ",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Se essa empresa tivesse um mascote...<br /><span class='toc'>DESCRIÇÃO:</span> Escolher um empresa prestadora de serviço e criar um mascote.<br /><strong>ex:</strong> Netflix, Twitch, Youtube, etc.<br /><span class='toc'>PROCESSO:</span> rascunho¹ / arte-final² / cor³ / luz e sombra⁴ / efeitos⁵.<br /><em><span style='font-size: 14px;' class='spaceLine'>1. fazer esboço em papel ou fazer esboço diretamente digital.<br />2. arte-finalizar com mesa gráfica ou, se preferir, com mouse.<br />3. definir paleta de cores e realizar o preenchimento das formas.<br />4. criar áreas de luz e sombra e fazer a adequação das cores.<br />5. utilização de preenchimento gradiente e uso de transparência.</span></em><span style='color:white;'>HARDCORE: Fazer uma imagem de apresentação do mascote.",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> Pandorinha 2 – Uma nova aventura.<br /><span class='toc'>DESCRIÇÃO:</span> Concluir o processo de ilustração da Pandorinha iniciado  último desafio extra.<br /><strong>ex:</strong> preenchimento uniforme ou gradiente, luz e sombra com cores sólidas ou transparência.<br /><span class='toc'>PROCESSO:</span> cor³ / luz e sombra⁴.<br /><em><span style='font-size: 14px;' class='spaceLine'>3. estabelecer uma paleta de cores e realizar o preenchimento das formas.<br />4. definir áreas de luz e sombra e as devidas variações de suas cores.</span></em><span class='toc'>FICA DICA:</span> Você pode realizar as etapas de “cor” e “luz e sombra” de diferentes maneiras, aproveite para testar e descobrir aquela que mais se adequa a seu estilo."
+        },
+        {
+            "personagemNome": "oráculo",
+            "personagemNome2": "oráculo",
+            "personagemLink": "../image/enemy_d7ai0.svg",
+            "personagemLinkNivel2": "../image/enemy_d7ai.svg",
+            "txtIntro": "Aqui está, o <span class='monster-name'>Oráculo</span>, a última etapa da sua jornada! <span class='toc'><sup>(toc!)</sup></span><br />Dizem que ao olhar diretamente para ele você vê seu reflexo do ontem e do amanhã, se depara com seus sonhos e medos, encontra com suas qualidades e defeitos.<br />Este momento de análise interior pode durar anos e apenas aqueles que estão de fato preparados conseguem prosperar. Você está pronto?<br />Então, minhas últimas palavras para você serão: boa sorte! <span class='toc'><sup>(toc!)</sup></span>",
+            "txtFundamental": "<br /><span class='toc'>EXERCÍCIO:</span> Self-portrait.<br /><span class='toc'>DESCRIÇÃO:</span> Fazer um autorretrato no seu estilo/técnica pessoal.<br /><span class='toc'>RESTRIÇÃO:</span> Não fazer apenas o rosto, desenhar também o corpo.",
+            "txtComplementar": "<br /><span class='toc'>EXERCÍCIO:</span> Eu sou um combatente de ataque à distância (Ranged)...<br /><span class='toc'>DESCRIÇÃO:</span> Transformar-se em um herói da Jornada Vetorial.<br /><strong>ex:</strong> caçador, mago, bruxo, sacerdote, xamã, etc.<br /><span style='color:white;'>HARDCORE: Crie um cenário para o seu personagem.</span>",
+            "txtExtra": "<br /><span class='toc'>EXERCÍCIO:</span> Exportação.<br /><span class='toc'>DESCRIÇÃO:</span> Adaptar sua arte para o formato 600 x 600 px e exportar em jpg - rgb (72 ppi).<br /><strong>ex:</strong> nome_ai7de.jpg.<br /><span class='toc'>FICA DICA:</span> Dedique-se, afinal seu herói será eternizado no Hall da Fama e servirá de exemplo para novos aventureiros!"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/4.0/examples/sign-in/ -->
+<html lang="en" class="gr__getbootstrap_com">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="../image/icon_tab.png">
+
+    <title>Jornada Vetorial</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.css" rel="stylesheet">
+    <link href="../assets/css/subpage.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/menuitens.css" rel="stylesheet">
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <div class="h-100 row">
+
+        <div class="marginOnRes h100res esquerda adjustResizeSm centerFlexBox col-6 col-md-6 col-sm-12">
+            <div class="my-auto mx-auto">
+                <h1 class="text-center chamada2">DESENHO É NA <br /><span class="chamada">Pandora</span></h1>
+            </div>
+        </div>
+
+
+        <!--Lado Direito da Tela -->
+        <div style="max-height: 100%" class=" adjustPosition adjustResizeSm direita col-6 col-md-6 col-sm-12">
+            <div class="h100res contentRightScroll">
+                <!--Menu do Lado Direito-->
+                <nav class="">
+                    <ul class="">
+                        <li class="li-nav"><a class="" style="color: #78c8d7" href="../pages/escola.html">ESCOLA</a></li>
+                        <li class="li-nav"><a class="" href="../pages/curso.html">CURSO</a></li>
+                        <li class="li-nav"><a id="aventura" href="#">aventura</a></li>
+                    </ul>
+                </nav>
+
+                <div class="h100res my-auto mx-auto ">
+                    <div class="conteudo">
+                        <p class="text-justify text-uppercase"> A Pandora está localizada próximo a prefeitura de Campinas, e, desde 1998, está no no mercado com os melhores profissionais, cursos apostilados, um programa atual e exclusivo de ensino e com uma grande preocupação em estar sempre melhorando a estrutura, equipe, método de ensino. A escola conta com uma estrutura diferenciada, com salas de aula amplas, sala de estudos, sala de vídeo aula, uma grande área de jardim para convívio e aulas externas.
+                        </p>
+                        <hr>
+                        <blockquote class="mx-0 my-0 text-justify">"desmistificar a arte tornando-a uma ferramenta básica para o crescimento pscicológico, social e profissional do ser humano"</blockquote>
+                        <div class="spaceMargin"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var qualpg = sessionStorage.getItem("qualpagina");
+    var a = document.getElementById('aventura');
+    if (qualpg == 1) {
+        a.href = "../pages/game_ai.html"
+    }
+    if (qualpg == 2) {
+        a.href = "../pages/game_cd.html"
+    }
+
+</script>
+
+</html>

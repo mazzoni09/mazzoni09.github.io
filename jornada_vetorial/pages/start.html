@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/4.0/examples/sign-in/ -->
+<html lang="en" class="gr__getbootstrap_com">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="../image/icon_tab.png">
+
+    <title>Jornada Vetorial</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.css" rel="stylesheet">
+    <link href="../assets/css/subpage.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/menuitens.css" rel="stylesheet">
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <div class="h-100 row">
+
+        <div class="marginOnRes h100res esquerda adjustResizeSm centerFlexBox col-6 col-md-6 col-sm-12">
+            <div class="my-auto mx-auto">
+                <h1 class="text-center chamada2">DESENHO É NA <br /><span class="chamada">Pandora</span></h1>
+            </div>
+        </div>
+
+
+        <!--Lado Direito da Tela -->
+        <div style="max-height: 100%" class=" adjustPosition adjustResizeSm direita col-6 col-md-6 col-sm-12">
+            <div style="margin-bottom: 20px;" class="h100res">
+                <!--Menu do Lado Direito-->
+
+                <div class="h100res my-auto mx-auto ">
+                    <div class="conteudo callContent">
+                        <h1 class="h6 mb-3 font-weight-bold">O CHAMADO PARA AVENTURA</h1>
+                        <p class="text-justify"> Seja bem-vindo ao Mundo do Vetor, um reino repleto de desafios e descobertas.
+                            <br />
+                            Alguns se aventuram por estas terras em busca de recompensas, outros almejam reconhecimento por seus feitos heroicos. Seja qual for o seu objetivo, um aviso, ainda que encontre auxílio, seu destino dependerá exclusivamente de você e suas escolhas.
+                            <br />
+                            O caminho mais curto nem sempre é o melhor, portanto prepare-se, após a escolha das armas se inicia sua jornada. Aqueles que partem jamais retornam os mesmos, siga em frente, uma incrível aventura o espera.<span style="color: black;"> Que a arte esteja com você!</span>
+                        </p>
+
+                        <form class="formtest" id="choice">
+                            <span class="font-weight-bold" style="font-size: 18px; color: #78c8d7; display: inline-block; margin-top: 10px;">E S C O L H A &nbsp S U A S &nbsp A R M A S</span>
+                            <div class="slidecontainer">
+                                <img class="img-fluid float-left img-start" src="../image/icon_espada.svg" alt="">
+
+                                <input type="range" min="1" max="3" value="2" class="slider" id="myRange" required="">
+
+                                <img class="img-fluid float-right img-start" src="../image/icon_arco.svg" alt="">
+                            </div>
+                            <input type="checkbox" id="validate-start" class="checkbox-inv d-block" value="" oninvalid="setCustomValidity('Selecione uma opção para continuar')" required="">
+                            <p><span class="float-left" style="color: #009245;">corel draw</span> <span class="float-right" style="color: #F15A24"> illustrator</span></p>
+                            <button class="btn btn-lg btn-info btn-block btn-spc" type="submit" onclick="comecar()">COMEÇAR</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var escolha = document.getElementById("myRange");
+    var validateStart = document.getElementById("validate-start");
+
+    escolha.oninput = function() {
+        if (escolha.value == 1) {
+            $('.slider').css('background', '#7AC943');
+            $('.slider').css('border-color', '#7AC943');
+            validateStart.checked = true;
+        }
+        if (escolha.value == 3) {
+            $('.slider').css('background', '#FF931E');
+            $('.slider').css('border-color', '#FF931E');
+            validateStart.checked = true;
+        }
+        if (escolha.value == 2) {
+            $('.slider').css('background', '#d3d3d3');
+            $('.slider').css('border-color', '#d3d3d3');
+            validateStart.checked = false;
+        }
+    }
+
+    function comecar() {
+        if (escolha.value == 1) {
+            document.getElementById("choice").action = "./game_cd.html";
+            window.open("./game_cd.html", "_self");
+            console.log("funcionou");
+        }
+        if (escolha.value == 3) {
+            document.getElementById("choice").action = "./game_ai.html";
+            window.open("./game_ai.html", "_self");
+            console.log("funcionou");
+        }
+    }
+
+</script>
+
+</html>

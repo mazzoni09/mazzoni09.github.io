@@ -157,7 +157,7 @@ img {
 }
 
 .card {
-    height: 35rem;
+    height: 20rem;
 }
 
 .content2 {
@@ -311,6 +311,7 @@ img {
 }
 
 .neon_box {
+    height: 320px;
     border: 5px solid;
     border-image: linear-gradient(-45deg, #e150fb, #1fc9bd) 1;
     border: double 5px transparent;

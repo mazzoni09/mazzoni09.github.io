@@ -331,15 +331,15 @@ img {
     text-align: center;
 }
 
-.skill_txt{
-    display:inline-block;
+.skill_txt {
+    display: inline-block;
     margin-right: 15px;
 }
 
 .dot {
     margin: 0px 20px;
     padding: 0;
-    background-color: #bbb;
+    background-color: #fff;
     border-radius: 50%;
     display: inline-block;
     margin-top: 10px;
@@ -405,6 +405,6 @@ img {
     width: 19px;
 }
 
-.dgray{
-    background-color: #bbb;
+.dgray {
+    background-color: #222662;
 }

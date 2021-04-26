@@ -13,10 +13,11 @@ body {
     height: 100%;
     width: 100%;
     overflow-y: scroll;
-    scroll-behavior:auto;
+    scroll-behavior: auto;
     scroll-snap-type: y mandatory;
 }
 
+/*
 .nav-link {
     color: #9a9db8;
     font-weight: 700;
@@ -44,7 +45,7 @@ body {
 .navbar-toggler-icon {
     border-color: white;
 }
-
+*/
 .teste {
     margin-top: auto;
     margin-bottom: auto;
@@ -59,8 +60,13 @@ body {
 
 }
 
-.content {
+.content2 {
 
+}
+
+.teste12{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 img {
@@ -166,8 +172,10 @@ img {
 }
 
 .card {
-    height: 20rem;
-    width: 30rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80vh;
+    width: 100%;
 }
 
 

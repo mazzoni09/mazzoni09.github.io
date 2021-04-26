@@ -17,6 +17,35 @@ body {
     scroll-snap-type: y mandatory;
 }
 
+.navbar{
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+}
+
+.nav-link{
+    z-index: 2;
+}
+
+#folder-ico{
+     fill: #fff;
+}
+
+.nav-link img{
+    filter: invert(6%) sepia(100%) saturate(7500%) hue-rotate(229deg) brightness(99%) contrast(93%);
+}
+
+.filter_nav{
+    filter: none;
+    filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(268deg) brightness(117%) contrast(100%)!important;
+}
+
+.neon_box_inside p{
+    margin-left: 10%;
+}
+
 /*
 .nav-link {
     color: #9a9db8;
@@ -46,6 +75,7 @@ body {
     border-color: white;
 }
 */
+
 .teste {
     margin-top: auto;
     margin-bottom: auto;
@@ -105,8 +135,6 @@ img {
     margin-top: 5rem !important;
 }
 
-
-
 .btn,
 .btn:link,
 .btn:visited {
@@ -164,8 +192,6 @@ img {
     background-color: #55c57a;
 }
 
-
-
 .section-plans {
     background-color: #171a45;
     margin-bottom: 10px;
@@ -177,7 +203,6 @@ img {
     height: 80vh;
     width: 100%;
 }
-
 
 .card__side {
     height: 100%;
@@ -194,7 +219,6 @@ img {
     -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
-
 
 .card__side--front-1 {
     background: linear-gradient(-45deg, #f403d1, #64b5f6);
@@ -228,7 +252,6 @@ img {
 .card__side--back-1 {
     background: linear-gradient(-45deg, #12df94, #5be2fe);
 }
-
 
 .card:hover .card__side--front-1,
 .card:hover .card__side--front-2,

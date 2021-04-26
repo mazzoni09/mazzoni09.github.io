@@ -26,4 +26,52 @@ var defaultOptions = {
     },
 };
 
-new PanelSnap(defaultOptions);
+var testex = new PanelSnap(defaultOptions);
+
+
+function removeAllClass(){
+    $("#home_img").removeClass("filter_nav");
+    $("#sobre_img").removeClass("filter_nav");
+    $("#projetos_img").removeClass("filter_nav");
+    $("#contato_img").removeClass("filter_nav");
+}
+
+testex.on('snapStop', function (panel) {
+    console.log('123123123: ' + panel.id);
+    removeAllClass();
+    
+    switch (panel.id) {
+        case 'home':
+            $("#home_img").addClass("filter_nav");
+            break;
+        case 'sobre':
+            $("#sobre_img").addClass("filter_nav");
+            break;
+        case 'projetos':
+            $("#projetos_img").addClass("filter_nav");
+            break;
+        case 'contato':
+            $("#contato_img").addClass("filter_nav");
+            break;
+        default:
+            console.log('Error on panel detection');
+    }
+});
+
+
+function home(){
+   testex.snapToPanel(document.getElementById('home'))
+}
+
+function sobre(){
+   testex.snapToPanel(document.getElementById('sobre'))
+}
+
+function projetos(){
+   testex.snapToPanel(document.getElementById('projetos'))
+}
+
+function contato(){
+   testex.snapToPanel(document.getElementById('contato'))
+}
+

@@ -37,7 +37,6 @@ function removeAllClass(){
 }
 
 testex.on('snapStop', function (panel) {
-    console.log('123123123: ' + panel.id);
     removeAllClass();
     
     switch (panel.id) {

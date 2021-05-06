@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="assets/index.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
     <title>Mateus Mazzoni</title>
 </head>
 
@@ -41,11 +41,11 @@
                 <div class="col-6 teste">
                     <p class="lead">Site em desenvolvimento</p>
                     <h1>Hello world!<br>Tudo bem?</h1>
-                    <p>Meu nome é Mateus Mazzoni, sou um estudante de ciência da computação em busca de sua primeira oportunidade de trabalho na area de TI</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium maximus odio, nec viverra mi molestie quis. Vestibulum neque nibh, dignissim eget egestas quis, volutpat sed tellus. Aenean ullamcorper, tellus ut feugiat maximus, ligula urna ultricies odio, ut rutrum arcu risus eget justo.</p>
+                    <p>Meu nome é Mateus Mazzoni, sou um estudante de ciência da computação em busca da sua primeira oportunidade de trabalho na area de TI</p>
+                    <p></p>
 
-                    <button class="btn btn-primary btn_spacing">Entre em contato</button>
-                    <button class="btn btn-light btn_spacing">Projetos</button>
+                    <button class="btn btn-primary btn_spacing" onclick="contato()">Entre em contato</button>
+                    <button class="btn btn-light btn_spacing" onclick="projetos()">Projetos</button>
                 </div>
                 <div class="col-6 img_wrapper">
                     <img src="assets/images/MZN%20Monkey%20No%20Smoke.jpg">
@@ -71,9 +71,30 @@
                     </div>
                 </div>
                 <div class="col-7 teste">
+
                     <div class="neon_box">
-                        <div class="neon_box_inside">
-                            <h5 class="text-center">Skills</h5>
+                        <div class="neon_box_inside_r">
+                            <div class="box_icon text-center">
+                               <h5 class="text-center">Skills</h5>
+                                <i class="devicon-visualstudio-plain"></i>
+                                <i class="devicon-html5-plain"></i>
+                                <i class="devicon-csharp-plain"></i>
+                                <i class="devicon-c-plain"></i>
+                                <i class="devicon-mysql-plain"></i>
+                                <i class="devicon-css3-plain"></i>
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-bootstrap-plain"></i>
+                                <i class="devicon-git-plain"></i>
+                                <i class="devicon-javascript-plain"></i>
+                                <i class="devicon-java-plain"></i>
+                                <i class="devicon-jquery-plain-wordmark"></i>
+                                <i class="devicon-php-plain"></i>
+                                <i class="devicon-postgresql-plain"></i>
+                                <i class="devicon-trello-plain-wordmark"></i>
+                                <i class="devicon-android-plain"></i>
+                            </div>
+
+                            <!-- 
                             <div class="row skill">
                                 <span class="col-1 skill_txt">HTML</span>
                                 <span class="col-1 dot d0"></span>
@@ -88,7 +109,6 @@
                                 <span class="col-1 dot d9"></span>
                             </div>
                             <div class="row">
-
                                 <span class="col-1 skill_txt">CSS</span>
                                 <span class="col-1 dot d0"></span>
                                 <span class="col-1 dot d1"></span>
@@ -102,7 +122,6 @@
                                 <span class="col-1 dot d9 dgray"></span>
                             </div>
                             <div class="row">
-
                                 <span class="col-1 skill_txt">JS</span>
                                 <span class="col-1 dot d0"></span>
                                 <span class="col-1 dot d1"></span>
@@ -180,12 +199,12 @@
                                 <span class="col-1 dot d8 dgray"></span>
                                 <span class="col-1 dot d9 dgray"></span>
                             </div>
-
+                      
+                        </div> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <section id="projetos" class="container content-wrapper">
         <div class="content2">
@@ -216,7 +235,7 @@
                                                 <div class="card__price-box">
                                                     <p class="card__price-only">Website Jornada Vetorial</p>
                                                 </div>
-                                                <a href="#popup" class="btn btn--white">Visitar</a>
+                                                <a href="/jornada_vetorial/index.html" target="_blank" class="btn btn--white">Visitar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -238,7 +257,7 @@
                                                 <div class="card__price-box">
                                                     <p class="card__price-only">Website Eletrocursos</p>
                                                 </div>
-                                                <a href="#popup" class="btn btn--white">Visitar</a>
+                                                <a href="http://eletrocursos.net/" target="_blank" class="btn btn--white">Visitar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +279,7 @@
                                                 <div class="card__price-box">
                                                     <p class="card__price-only">Website Code Monkey</p>
                                                 </div>
-                                                <a href="#popup" class="btn btn--white">Visitar</a>
+                                                <a href="#notAvaible" class="btn btn--gray">Visitar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -281,7 +300,7 @@
                                                 <div class="card__price-box">
                                                     <p class="card__price-only">Website Zonit Automações</p>
                                                 </div>
-                                                <a href="#popup" class="btn btn--white">Visitar</a>
+                                                <a href="/zonit/index.html" target="_blank" class="btn btn--white">Visitar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -312,13 +331,14 @@
                             <p>mateusmazzoni7@gmail.com</p>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-2">
                             <span class="icon_contact"><img src="assets/images/icons8-facebook-circled-50.svg"></span>
                         </div>
                         <div class="col-10">
-                            <p>mateus.mazzoni.77</p>
+                            <a class="link_social" href="https://www.facebook.com/mateus.mazzoni.77" target="_blank">
+                                <p>mateus.mazzoni.77</p>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
@@ -326,7 +346,9 @@
                             <span class="icon_contact"><img src="assets/images/icons8-linkedin-circled-50.svg"></span>
                         </div>
                         <div class="col-10">
-                            <p>mateus-mazzoni</p>
+                            <a class="link_social" href="https://www.linkedin.com/in/mateus-mazzoni/" target="_blank">
+                                <p>mateus-mazzoni</p>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
@@ -334,10 +356,11 @@
                             <span class="icon_contact"><img src="assets/images/icons8-github-50.svg"></span>
                         </div>
                         <div class="col-10">
-                            <p>mazzoni09</p>
+                            <a class="link_social" href="https://github.com/mazzoni09" target="_blank">
+                                <p>mazzoni09</p>
+                            </a>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-6 teste">
                     <form action="https://formspree.io/f/moqyvolb" method="POST">
@@ -353,29 +376,20 @@
                             <label for="exampleFormControlTextarea1">Menssagem</label>
                             <textarea class="form-control" name="message" rows="3"></textarea>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LeNhL0aAAAAAD_u1jXg-TAGMLNELb1DSQSSFAKW"></div>
                         <button type="submit" class="btn btn-primary my-1">Submit</button>
                     </form>
-
                 </div>
             </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-
     <script src="assets/panelsnap.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.js"></script>
     <script src="/assets/panelsnap.js"></script>
-
     <script src="assets/main.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

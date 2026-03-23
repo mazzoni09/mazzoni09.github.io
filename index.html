@@ -1,395 +1,402 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="assets/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
-    <title>Mateus Mazzoni</title>
-</head>
+    <!-- SEO -->
+    <title>Mateus Mazzoni — Analista de TI & Suporte Técnico | Campinas-SP</title>
+    <meta
+      name="description"
+      content="Portfólio de Mateus Mazzoni Guimarães Junior — Analista de TI com experiência em suporte técnico, infraestrutura, redes e desenvolvimento front-end. Campinas-SP."
+    />
+    <meta
+      name="keywords"
+      content="Analista de TI, Suporte Técnico, Help Desk, Campinas, Windows, Active Directory, Redes, Front-End, Mateus Mazzoni"
+    />
+    <meta name="author" content="Mateus Mazzoni Guimarães Junior" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mateusmazzoni.dev/" />
 
-<body class="h-100">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mateus Mazzoni — Analista de TI & Suporte Técnico" />
+    <meta
+      property="og:description"
+      content="Formado em Ciência da Computação, com experiência em suporte técnico, infraestrutura e desenvolvimento web. Campinas-SP."
+    />
+    <meta property="og:url" content="https://mateusmazzoni.dev/" />
 
-    <nav class="navbar navbar-dark">
-        <div class="container-fluid">
-            <div>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" onclick="home()"><img id="home_img" class="" src="assets/images/icons8-home-50.svg" alt="Home"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="sobre()"><img id="sobre_img" class="" src="assets/images/icons8-user-male-50.svg" alt="Sobre"> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="projetos()"><img id="projetos_img" class="" src="assets/images/icons8-folder-50.svg" alt="Projeots"> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="contato()"><img id="contato_img" class="" src="assets/images/icons8-email-50.svg" alt="Contato"> </a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">MM<span>.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Menu">
+          <i class="bi bi-list fs-4"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-1 mt-3 mt-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experiência</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link nav-btn-cv" href="curriculo_mateus_mazzoni.pdf" download="Curriculo_Mateus_Mazzoni.pdf">
+                <i class="bi bi-download"></i> CV
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <section id="home" class="container content-wrapper">
-        <div class="content">
-            <div class="row teste1">
-                <div class="col-6 teste">
-                    <p class="lead">Site em desenvolvimento</p>
-                    <h1>Hello world!<br>Tudo bem?</h1>
-                    <p>Meu nome é Mateus Mazzoni, sou um estudante de ciência da computação em busca da sua primeira oportunidade de trabalho na area de TI</p>
-                    <p></p>
-
-                    <button class="btn btn-primary btn_spacing" onclick="contato()">Entre em contato</button>
-                    <button class="btn btn-light btn_spacing" onclick="projetos()">Projetos</button>
-                </div>
-                <div class="col-6 img_wrapper">
-                    <img src="assets/images/MZN%20Monkey%20No%20Smoke.jpg">
-                </div>
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-8">
+            <div class="hero-tag fade-up"><i class="bi bi-geo-alt-fill"></i> Campinas — SP</div>
+            <h1 class="hero-title fade-up">Olá, sou<br /><span class="accent">Mateus Mazzoni</span></h1>
+            <p class="hero-sub fade-up">
+              Analista de TI formado em Ciência da Computação — apaixonado por suporte técnico, infraestrutura e tecnologia que simplifica o dia a
+              dia.
+            </p>
+            <div class="d-flex flex-wrap gap-3 fade-up">
+              <a href="#contact" class="btn-primary-custom"> <i class="bi bi-envelope-fill"></i> Entre em contato </a>
+              <a href="#experience" class="btn-outline-custom"> <i class="bi bi-briefcase"></i> Ver experiências </a>
+              <a href="curriculo_mateus_mazzoni.pdf" download="Curriculo_Mateus_Mazzoni.pdf" class="btn-download-custom">
+                <i class="bi bi-file-earmark-arrow-down-fill"></i> Baixar Currículo
+              </a>
             </div>
+            <div class="hero-stats fade-up">
+              <div class="stat-item">
+                <span class="stat-num">9+</span>
+                <span class="stat-label">Anos de experiência</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">2</span>
+                <span class="stat-label">Graduações</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">N2</span>
+                <span class="stat-label">Suporte técnico</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">8+</span>
+                <span class="stat-label">Tecnologias</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-flex justify-content-center">
+            <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="150" cy="150" r="130" fill="#E8F2FB" />
+              <circle cx="150" cy="150" r="100" fill="#D1E8F7" opacity=".6" />
+              <circle cx="150" cy="125" r="46" fill="#0A6EBD" opacity=".15" />
+              <rect x="80" y="175" width="140" height="90" rx="24" fill="#0A6EBD" opacity=".12" />
+              <circle cx="150" cy="118" r="36" fill="#0A6EBD" opacity=".85" />
+              <rect x="90" y="163" width="120" height="72" rx="20" fill="#0A6EBD" opacity=".65" />
+              <circle cx="56" cy="80" r="10" fill="#0A6EBD" opacity=".18" />
+              <circle cx="248" cy="220" r="14" fill="#0A6EBD" opacity=".12" />
+              <rect x="234" y="56" width="22" height="22" rx="5" fill="#0A6EBD" opacity=".1" transform="rotate(20 234 56)" />
+              <rect x="44" y="220" width="18" height="18" rx="4" fill="#0A6EBD" opacity=".1" transform="rotate(-15 44 220)" />
+            </svg>
+          </div>
         </div>
+      </div>
     </section>
-    <section id="sobre" class="container content-wrapper">
-        <div class="content">
-            <h1>Sobre mim</h1>
-            <div class="row teste1">
-                <div class="col-4 teste">
-                    <div class="neon_box">
-                        <div class="neon_box_inside">
-                            <h5 class="">Idiomas</h5>
-                            <p>Português - Nativo<br>Inglês - Avançado</p>
-                            <h5 class="">Formação</h5>
-                            <p>Ciência da Computação - UNIP<br>
-                                02/2018 - 12/2021</p>
-                            <p>Jogos Digitais - PUC<br>
-                                02/2018 - 12/2021</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-7 teste">
 
-                    <div class="neon_box">
-                        <div class="neon_box_inside_r">
-                            <div class="box_icon text-center">
-                               <h5 class="text-center">Skills</h5>
-                                <i class="devicon-visualstudio-plain"></i>
-                                <i class="devicon-html5-plain"></i>
-                                <i class="devicon-csharp-plain"></i>
-                                <i class="devicon-c-plain"></i>
-                                <i class="devicon-mysql-plain"></i>
-                                <i class="devicon-css3-plain"></i>
-                                <i class="devicon-python-plain"></i>
-                                <i class="devicon-bootstrap-plain"></i>
-                                <i class="devicon-git-plain"></i>
-                                <i class="devicon-javascript-plain"></i>
-                                <i class="devicon-java-plain"></i>
-                                <i class="devicon-jquery-plain-wordmark"></i>
-                                <i class="devicon-php-plain"></i>
-                                <i class="devicon-postgresql-plain"></i>
-                                <i class="devicon-trello-plain-wordmark"></i>
-                                <i class="devicon-android-plain"></i>
-                            </div>
-
-                            <!-- 
-                            <div class="row skill">
-                                <span class="col-1 skill_txt">HTML</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7"></span>
-                                <span class="col-1 dot d8"></span>
-                                <span class="col-1 dot d9"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">CSS</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7"></span>
-                                <span class="col-1 dot d8"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">JS</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7"></span>
-                                <span class="col-1 dot d8"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">C</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7 dgray"></span>
-                                <span class="col-1 dot d8 dgray"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">C#</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7"></span>
-                                <span class="col-1 dot d8 dgray"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">Python</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6"></span>
-                                <span class="col-1 dot d7 dgray"></span>
-                                <span class="col-1 dot d8 dgray"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">MySQL</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5"></span>
-                                <span class="col-1 dot d6 dgray"></span>
-                                <span class="col-1 dot d7 dgray"></span>
-                                <span class="col-1 dot d8 dgray"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                            <div class="row">
-                                <span class="col-1 skill_txt">PHP</span>
-                                <span class="col-1 dot d0"></span>
-                                <span class="col-1 dot d1"></span>
-                                <span class="col-1 dot d2"></span>
-                                <span class="col-1 dot d3"></span>
-                                <span class="col-1 dot d4"></span>
-                                <span class="col-1 dot d5 dgray"></span>
-                                <span class="col-1 dot d6 dgray"></span>
-                                <span class="col-1 dot d7 dgray"></span>
-                                <span class="col-1 dot d8 dgray"></span>
-                                <span class="col-1 dot d9 dgray"></span>
-                            </div>
-                      
-                        </div> -->
-                        </div>
-                    </div>
-                </div>
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-6 fade-up">
+            <p class="section-label">Quem sou eu</p>
+            <h2 class="section-title">Sobre mim</h2>
+            <div class="divider"></div>
+            <p style="color: var(--clr-muted); font-size: 0.97rem; line-height: 1.8">
+              Formado em <strong style="color: var(--clr-text)">Ciência da Computação</strong> pela UNIP, possuo experiência em suporte técnico ao
+              usuário — presencial e remoto —, com atuação em manutenção de equipamentos, diagnóstico e resolução de problemas em ambientes Windows.
+            </p>
+            <p style="color: var(--clr-muted); font-size: 0.97rem; line-height: 1.8; margin-top: 1rem">
+              Tenho vivência no <strong style="color: var(--clr-text)">atendimento a usuários</strong>, suporte contínuo e apoio em configurações
+              básicas de rede, garantindo o funcionamento e a estabilidade dos sistemas.Também atuei com desenvolvimento e manutenção de websites, o
+              que contribuiu para ampliar minha visão técnica e capacidade de resolução de problemas.
+            </p>
+            <p style="color: var(--clr-muted); font-size: 0.97rem; line-height: 1.8; margin-top: 1rem">
+              Busco uma oportunidade na área de TI, com foco em suporte técnico, onde possa aplicar meus conhecimentos e evoluir profissionalmente.
+            </p>
+            <div class="d-flex align-items-center gap-2 mt-3">
+              <div class="avail-badge">
+                <span class="avail-dot"></span>
+                Disponível para oportunidades
+              </div>
             </div>
-    </section>
-    <section id="projetos" class="container content-wrapper">
-        <div class="content2">
-            <div class="row">
-                <h1>Projetos</h1>
-                <div class="teste12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <!--Jornada-Vetorial-->
-                            <div class="carousel-item active">
-                                <div class="">
-                                    <div class="card section-plans">
-                                        <div id="p1" class="card__side card__side--front-1">
-                                            <div class="card__title card__title--1">
-                                                <i class="fas fa-paper-plane"></i>
-                                            </div>
-                                            <div class="card__details">
-                                            </div>
-                                        </div>
-                                        <div class="card__side card__side--back card__side--back-1">
-                                            <div class="card__cta">
-                                                <div class="card__price-box">
-                                                    <p class="card__price-only">Website Jornada Vetorial</p>
-                                                </div>
-                                                <a href="/jornada_vetorial/index.html" target="_blank" class="btn btn--white">Visitar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Eletrocursos-->
-                            <div class="carousel-item">
-                                <div class="">
-                                    <div class="card section-plans">
-                                        <div id="p2" class="card__side card__side--front-1">
-                                            <div class="card__title card__title--1">
-                                                <i class="fas fa-paper-plane"></i>
-                                            </div>
-                                            <div class="card__details">
-                                            </div>
-                                        </div>
-                                        <div class="card__side card__side--back card__side--back-1">
-                                            <div class="card__cta">
-                                                <div class="card__price-box">
-                                                    <p class="card__price-only">Website Eletrocursos</p>
-                                                </div>
-                                                <a href="http://eletrocursos.net/" target="_blank" class="btn btn--white">Visitar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Code-Monkey-->
-                            <div class="carousel-item">
-                                <div class="">
-                                    <div class="card section-plans">
-                                        <div id="p3" class="card__side card__side--front-1">
-                                            <div class="card__title card__title--1">
-                                                <i class="fas fa-paper-plane"></i>
-                                            </div>
-                                            <div class="card__details">
-                                            </div>
-                                        </div>
-                                        <div class="card__side card__side--back card__side--back-1">
-                                            <div class="card__cta">
-                                                <div class="card__price-box">
-                                                    <p class="card__price-only">Website Code Monkey</p>
-                                                </div>
-                                                <a href="#notAvaible" class="btn btn--gray">Visitar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="">
-                                    <div class="card section-plans">
-                                        <div id="p4" class="card__side card__side--front-1">
-                                            <div class="card__title card__title--1">
-                                                <i class="fas fa-paper-plane"></i>
-                                            </div>
-                                            <div class="card__details">
-                                            </div>
-                                        </div>
-                                        <div class="card__side card__side--back card__side--back-1">
-                                            <div class="card__cta">
-                                                <div class="card__price-box">
-                                                    <p class="card__price-only">Website Zonit Automações</p>
-                                                </div>
-                                                <a href="/zonit/index.html" target="_blank" class="btn btn--white">Visitar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-6 fade-up">
+            <div class="about-card mb-4">
+              <div class="info-row"><i class="bi bi-person-fill"></i> Mateus Mazzoni Guimarães Junior</div>
+              <div class="info-row"><i class="bi bi-geo-alt-fill"></i> Campinas – SP</div>
+              <div class="info-row"><i class="bi bi-telephone-fill"></i> (19) 9 99263-9649</div>
+              <div class="info-row"><i class="bi bi-envelope-fill"></i> <a href="mailto:mateusmazzoni7@gmail.com">mateusmazzoni7@gmail.com</a></div>
+              <div class="info-row">
+                <i class="bi bi-linkedin"></i>
+                <a href="https://www.linkedin.com/in/mateus-mazzoni/" target="_blank" rel="noopener">linkedin.com/in/mateus-mazzoni</a>
+              </div>
+              <div class="info-row"><i class="bi bi-car-front-fill"></i> CNH Categoria B</div>
+              <div class="info-row"><i class="bi bi-building"></i> Presencial · Híbrido · Remoto</div>
             </div>
+            <h5 style="font-family: var(--ff-head); font-size: 1rem; font-weight: 700; margin-bottom: 1rem">Formação Acadêmica</h5>
+            <div class="edu-item">
+              <span class="edu-period">Fev 2018 – Dez 2021</span>
+              <h6>Bacharelado em Ciência da Computação</h6>
+              <small><i class="bi bi-building me-1"></i>Universidade Paulista (UNIP) — Campinas, SP</small>
+            </div>
+            <div class="edu-item">
+              <span class="edu-period">Jul 2014 – Dez 2016</span>
+              <h6>Tecnólogo em Jogos Digitais</h6>
+              <small><i class="bi bi-building me-1"></i>PUC Campinas</small>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <section id="contato" class="container content-wrapper">
-        <div class="content">
-            <div class="row teste1">
-                <h1>Contato</h1>
-                <div class="col-6 teste">
-                    <div class="row">
-                        <div class="col-2">
-                            <span class="icon_contact"><img src="assets/images/icons8-email-sign-50.svg"></span>
-                        </div>
-                        <div class="col-10">
-                            <p>mateusmazzoni7@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <span class="icon_contact"><img src="assets/images/icons8-facebook-circled-50.svg"></span>
-                        </div>
-                        <div class="col-10">
-                            <a class="link_social" href="https://www.facebook.com/mateus.mazzoni.77" target="_blank">
-                                <p>mateus.mazzoni.77</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <span class="icon_contact"><img src="assets/images/icons8-linkedin-circled-50.svg"></span>
-                        </div>
-                        <div class="col-10">
-                            <a class="link_social" href="https://www.linkedin.com/in/mateus-mazzoni/" target="_blank">
-                                <p>mateus-mazzoni</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <span class="icon_contact"><img src="assets/images/icons8-github-50.svg"></span>
-                        </div>
-                        <div class="col-10">
-                            <a class="link_social" href="https://github.com/mazzoni09" target="_blank">
-                                <p>mazzoni09</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 teste">
-                    <form action="https://formspree.io/f/moqyvolb" method="POST">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Nome</label>
-                            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" name="_replyto" class="form-control" placeholder="nome@exemplo.com.br">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Menssagem</label>
-                            <textarea class="form-control" name="message" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary my-1">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="assets/panelsnap.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.js"></script>
-    <script src="/assets/panelsnap.js"></script>
-    <script src="assets/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
 
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+      <div class="container">
+        <div class="text-center mb-5 fade-up">
+          <p class="section-label">O que eu faço</p>
+          <h2 class="section-title">Habilidades Técnicas</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 fade-up">
+            <div class="skill-group">
+              <p class="skill-group-title"><i class="bi bi-headset me-1"></i> Suporte & Infraestrutura</p>
+              <span class="skill-badge"><i class="bi bi-person-check"></i>Atendimento ao Usuário</span>
+              <span class="skill-badge"><i class="bi bi-display"></i>Suporte Remoto</span>
+              <span class="skill-badge"><i class="bi bi-tools"></i>Manutenção de Hardware</span>
+              <span class="skill-badge"><i class="bi bi-bug"></i>Diagnóstico de Software</span>
+              <span class="skill-badge"><i class="bi bi-shield-check"></i>Manutenção Preventiva</span>
+              <span class="skill-badge"><i class="bi bi-headset"></i>Help Desk N1/N2</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 fade-up">
+            <div class="skill-group">
+              <p class="skill-group-title"><i class="bi bi-hdd-network me-1"></i> Sistemas & Redes</p>
+              <span class="skill-badge"><i class="bi bi-windows"></i>Windows 10/11</span>
+              <span class="skill-badge"><i class="bi bi-diagram-3"></i>Active Directory (básico)</span>
+              <span class="skill-badge"><i class="bi bi-ethernet"></i>TCP/IP & DNS</span>
+              <span class="skill-badge"><i class="bi bi-router"></i>Cabeamento Estruturado</span>
+              <span class="skill-badge"><i class="bi bi-wifi"></i>Organização de Rede</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 fade-up">
+            <div class="skill-group">
+              <p class="skill-group-title"><i class="bi bi-code-slash me-1"></i> Programação & Web</p>
+              <span class="skill-badge"><i class="bi bi-filetype-html"></i>HTML5</span>
+              <span class="skill-badge"><i class="bi bi-filetype-css"></i>CSS3</span>
+              <span class="skill-badge"><i class="bi bi-filetype-js"></i>JavaScript</span>
+              <span class="skill-badge"><i class="bi bi-braces"></i>jQuery</span>
+              <span class="skill-badge"><i class="bi bi-filetype-py"></i>Python</span>
+              <span class="skill-badge"><i class="bi bi-database"></i>PostgreSQL (básico)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-1 fade-up">
+          <div class="col-12">
+            <p class="skill-group-title"><i class="bi bi-translate me-1"></i> Idiomas</p>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="lang-item">
+              <span class="lang-flag">🇧🇷</span>
+              <div style="flex: 1">
+                <div class="lang-name">Português</div>
+                <div class="lang-level">Nativo</div>
+                <div class="lang-bar-wrap"><div class="lang-bar" style="width: 100%"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="lang-item">
+              <span class="lang-flag">🇺🇸</span>
+              <div style="flex: 1">
+                <div class="lang-name">Inglês</div>
+                <div class="lang-level">Leitura avançada · Conversação intermediária</div>
+                <div class="lang-bar-wrap"><div class="lang-bar" style="width: 72%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience">
+      <div class="container">
+        <div class="text-center mb-5 fade-up">
+          <p class="section-label">Trajetória</p>
+          <h2 class="section-title">Experiência Profissional</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6 fade-up">
+            <div class="exp-card">
+              <div class="exp-header">
+                <div>
+                  <div class="exp-company">Aton Systems</div>
+                  <div class="exp-role">Estagiário de Suporte Técnico</div>
+                  <div style="font-size: 0.78rem; color: var(--clr-muted); margin-top: 0.25rem"><i class="bi bi-geo-alt me-1"></i>Campinas, SP</div>
+                </div>
+                <span class="exp-period">Ago – Dez 2021</span>
+              </div>
+              <ul class="exp-list">
+                <li>Atendimento técnico a clientes externos por telefone.</li>
+                <li>Suporte a sistema de gestão para postos de combustível.</li>
+                <li>Acesso remoto para análise e verificação de inconsistências no sistema.</li>
+                <li>Apoio na integração de sistemas de pagamento com operadoras de cartão.</li>
+                <li>Manutenção corretiva e preventiva em equipamentos.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 fade-up">
+            <div class="exp-card">
+              <div class="exp-header">
+                <div>
+                  <div class="exp-company">Estúdio Falkor</div>
+                  <div class="exp-role">Desenvolvedor Front-End • Suporter Técnico - Freelancer</div>
+                  <div style="font-size: 0.78rem; color: var(--clr-muted); margin-top: 0.25rem"><i class="bi bi-globe me-1"></i>Remoto</div>
+                </div>
+                <span class="exp-period">Dez 2016 – Atualmente</span>
+              </div>
+              <ul class="exp-list">
+                <li>Desenvolvimento e manutenção de websites institucionais e landing pages.</li>
+                <li>Ajustes técnicos e visuais com HTML, CSS e JavaScript.</li>
+                <li>Correção de erros, atualização de conteúdo e suporte contínuo.</li>
+                <li>Diagnóstico e suporte a clientes e usuários finais.</li>
+                <li>Manutenção de computadores e configurações de rede.</li>
+                <li>Padronização visual e identidade digital dos projetos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="container">
+        <div class="text-center mb-5 fade-up">
+          <p class="section-label">Vamos conversar?</p>
+          <h2 class="section-title">Entre em Contato</h2>
+          <div class="divider mx-auto"></div>
+          <p class="section-desc mx-auto" style="text-align: center">
+            Estou disponível para novas oportunidades em Campinas e região — presencial, híbrido ou remoto.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-sm-6 col-lg-4 fade-up">
+            <a href="mailto:mateusmazzoni7@gmail.com" class="contact-card">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="contact-label">E-mail</div>
+                <div class="contact-value">mateusmazzoni7@gmail.com</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-4 fade-up">
+            <a href="tel:+5519999263-9649" class="contact-card">
+              <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="contact-label">Telefone / WhatsApp</div>
+                <div class="contact-value">(19) 9 99263-9649</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-4 fade-up">
+            <a href="https://www.linkedin.com/in/mateus-mazzoni/" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+              <div>
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">mateus-mazzoni</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <p>© 2025 <span>Mateus Mazzoni Guimarães Junior</span> · Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // Scroll-reveal
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+              e.target.style.transitionDelay = i * 0.07 + "s";
+              e.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      document.querySelectorAll(".fade-up").forEach((el) => observer.observe(el));
+
+      // Navbar active link highlight
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".nav-link");
+      window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((s) => {
+          if (window.scrollY >= s.offsetTop - 100) current = s.id;
+        });
+        navLinks.forEach((l) => {
+          l.classList.remove("active");
+          if (l.getAttribute("href") === "#" + current) l.classList.add("active");
+        });
+      });
+
+      // Close navbar on link click (mobile)
+      document.querySelectorAll(".nav-link").forEach((l) => {
+        l.addEventListener("click", () => {
+          const collapse = document.getElementById("navMenu");
+          if (collapse.classList.contains("show")) {
+            bootstrap.Collapse.getInstance(collapse)?.hide();
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
